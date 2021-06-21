@@ -1,4 +1,4 @@
-* {
+* { /*general*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,7 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+header { /*header properties*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -37,16 +46,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-figure {
+figure { /*"hero" image properties */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -65,13 +65,31 @@ figure {
     margin-left: 25px;
 }
 
-section {
+section { /*main content and services section*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-aside {
+.content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+aside { /* "aside" benefits section on right*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -98,25 +116,7 @@ aside {
     max-width: 150px;
 }
 
-.content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h1 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-footer {
+footer { /*footer properties*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
